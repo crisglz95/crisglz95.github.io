@@ -174,6 +174,7 @@ h2 {
 
 .btnAno.rounded {
     border-radius: 50px;
+    padding: 3px;
 }
 
 .btnAno.rounded .text-green {
@@ -194,6 +195,43 @@ h2 {
 
 
 /* Fin Boton Hover */
+
+
+/* Boton WhatsApp */
+
+.fijo {
+    position: relative;
+    z-index: 5;
+}
+
+.fijo .btn-circular {
+    width: 75px;
+    height: 75px;
+    position: fixed;
+    border-radius: 50%;
+    background: #00bb2d;
+    left: 90%;
+    top: 85%;
+}
+
+.fijo .btn-circular:hover {
+    box-shadow: 0px 0px 5px 1px #979797;
+}
+
+.fijo .btn-circular a {
+    display: inline-block;
+    width: 75px;
+    height: 75px;
+    text-align: center;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.fijo .btn-circular .fa {
+    font-size: 45px;
+    line-height: 73px;
+    left: 15px;
+}
 
 
 /* Servicios */
