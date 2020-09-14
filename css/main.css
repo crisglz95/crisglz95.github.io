@@ -244,6 +244,7 @@ h2 {
 .text-servicios:hover {
     color: #fd0002;
     text-decoration-line: underline;
+    transition: .5s;
 }
 
 
@@ -284,4 +285,30 @@ h2 {
 
 .imagen-contenedor .marco:hover {
     filter: blur(2px);
+}
+
+.btnEnlace {
+    width: 25%;
+    height: 50px;
+    border-radius: 60px;
+    background: transparent;
+    border: 1px solid #fd0002;
+    color: #fd0002;
+    font-family: 'Roboto', sans-serif;
+}
+
+.btnEnlace a {
+    text-decoration: none;
+    color: #fd0002;
+}
+
+.btnEnlace:hover {
+    color: #fff;
+    background: #fd0002;
+    transition: .5s;
+}
+
+.btnEnlace:hover a {
+    color: #fff;
+    transition: .5s;
 }
