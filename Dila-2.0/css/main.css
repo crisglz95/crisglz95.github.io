@@ -1,0 +1,125 @@
+@font-face{
+    font-family: 'Mukta Mahee';
+    src: url('../assets/fonts/MuktaMahee-Regular.ttf');
+}
+
+.body{
+    padding: 0;
+    margin: 0;
+}
+
+.wallpaper{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wallpaper .imagen{
+    width: 70%;
+    height: 65%;
+    background: url('./../assets/img/dila\ design.jpg') no-repeat center;
+    /* background-position: center;
+    background-size: cover; */
+}
+
+.q-somos{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.q-somos .titulo{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.q-somos .titulo h2{
+    font-family: 'Mukta Mahee', sans-serif;
+    font-size: 48px;
+    color: #FF0000;
+}
+
+.q-somos h2>i{
+    color: #000;
+}
+
+.q-somos .contenido{
+    width: 100%;
+    height: 85%;
+    display: flex;
+    margin-top: 25px;
+}
+
+.q-somos .contenido .imagen{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.q-somos .contenido .imagen img{
+    width: 70%;
+    height: 100%;
+}
+
+.q-somos .contenido .descripcion{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.q-somos .contenido .descripcion p{
+    color: #000;
+    font-family: 'Mukta Mahee', sans-serif;
+    font-size: 28px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 400px) {
+    .wallpaper{
+        height: 50vh;
+    }
+    .wallpaper .imagen{
+        width: 100%;
+        background-size: cover;
+    }
+    .q-somos{
+        width: 100%;
+        height: 90vh;
+    }
+    .q-somos .titulo h2{
+        font-size: 36px;
+    }
+    .q-somos .contenido{
+        flex-direction: column;
+    }
+    .q-somos .contenido .imagen{
+        width: 100%;
+        height: 50vh;
+    }
+    .q-somos .contenido .imagen img{
+        width: 85%;
+        height: 100%;
+    }
+    .q-somos .contenido .descripcion{
+        width: 100%;
+        margin: 0;
+    }
+    .q-somos .contenido .descripcion p{
+        font-size: 20px;
+    }
+}
